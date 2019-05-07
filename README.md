@@ -2,4 +2,5 @@
 -> using mongoose db 
 -> And bcrypt 
 > run: node app.js
-
+#### authendication using JWT 
+>npm i --s jsonwebtoken
