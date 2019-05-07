@@ -1,7 +1,6 @@
 {
   "name": "sample-3",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.3",
+    "nodemon": "^1.18.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thamaraiselvan1992/Node-js-use-simple-login-and-register-form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Thamaraiselvan1992/Node-js-use-simple-login-and-register-form/issues"
+  },
+  "homepage": "https://github.com/Thamaraiselvan1992/Node-js-use-simple-login-and-register-form#readme",
+  "description": ""
 }

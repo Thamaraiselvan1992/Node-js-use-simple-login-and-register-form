@@ -9,10 +9,11 @@
 </head>
 <body>
         <div class="login">
+           <center><h4 style="color:white"><%= message %></h4></center> 
                 <h1>Login</h1>
-                <form method="post">
-                    <input type="text" name="u" placeholder="Username" required="required" />
-                    <input type="password" name="p" placeholder="Password" required="required" />
+                <form method="post" action="/dashboard" enctype="application/x-www-form-urlencoded">
+                    <input type="email" name="email" placeholder="Username"  />
+                    <input type="password" name="password" placeholder="Password"  />
                     <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
                 </form>
             </div>
