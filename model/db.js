@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("//mongodb url", { useNewUrlParser: true }, (err) => {
+mongoose.connect("mongodb+srv://Thamaraiselvan:"+process.env.MongoDB_PASS+"@cluster0-66r7n.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true }, (err) => {
     if (!err) {
         console.log('Sucessfully connected')
     } else {

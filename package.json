@@ -26,5 +26,5 @@
     "url": "https://github.com/Thamaraiselvan1992/Node-js-use-simple-login-and-register-form/issues"
   },
   "homepage": "https://github.com/Thamaraiselvan1992/Node-js-use-simple-login-and-register-form#readme",
-  "description": ""
+  "description": "> run: node app.js\r #### authendication using JWT \r >npm i --s jsonwebtoken"
 }
